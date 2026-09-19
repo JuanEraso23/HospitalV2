@@ -1,0 +1,196 @@
+# ================================================================
+# .gitignore para proyecto Java Web (Maven + NetBeans + Tomcat)
+# Proyecto: HospitalV1
+# ================================================================
+
+# ================================================================
+# 1. MAVEN - Directorio de compilación
+# ================================================================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ================================================================
+# 2. NETBEANS - Archivos específicos del IDE
+# ================================================================
+# Directorio de configuración de NetBeans (contiene rutas locales)
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Archivos de configuración local
+nbactions.xml
+nb-configuration.xml
+nbproject/private/
+
+# ================================================================
+# 3. INTELLIJ IDEA
+# ================================================================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# ================================================================
+# 4. ECLIPSE
+# ================================================================
+.classpath
+.project
+.settings/
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.recommenders
+
+# ================================================================
+# 5. VISUAL STUDIO CODE
+# ================================================================
+.vscode/
+*.code-workspace
+
+# ================================================================
+# 6. JAVA - Archivos compilados
+# ================================================================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# Pero conservar librerías importantes si las necesitas
+!lib/**/*.jar
+
+# ================================================================
+# 7. APACHE TOMCAT
+# ================================================================
+# Archivos de despliegue de Tomcat
+*.war
+*.war.original
+work/
+temp/
+logs/
+conf/Catalina/
+webapps/
+!src/main/webapp/
+
+# ================================================================
+# 8. SISTEMAS OPERATIVOS
+# ================================================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ================================================================
+# 9. LOGS Y ARCHIVOS TEMPORALES
+# ================================================================
+*.log
+logs/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.cache/
+
+# ================================================================
+# 10. ARCHIVOS DE CONFIGURACIÓN SENSIBLES
+# ================================================================
+# Configuración de base de datos (si la separas del código)
+# db.properties
+# application.properties
+# *.env
+
+# Archivos de credenciales
+credentials.json
+*.pem
+*.key
+*.p12
+*.jks
+
+# ================================================================
+# 11. ARCHIVOS ESPECÍFICOS DE ONEDRIVE
+# ================================================================
+# Archivos temporales que genera OneDrive
+*.tmp
+~$*
+.desktop.ini
+.849C9593-D756-4E56-8D6E-42412F2A707B
+
+# ================================================================
+# 12. DOCUMENTACIÓN GENERADA
+# ================================================================
+# JavaDoc
+docs/
+javadoc/
+*/javadoc/
+site/
+
+# ================================================================
+# 13. ARCHIVOS DE PRUEBA
+# ================================================================
+*.test
+*.spec
+test-output/
+surefire-reports/
+
+# ================================================================
+# 14. OTROS
+# ================================================================
+# Archivos del editor
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de backup
+*.bak
+*.backup
+*.old
+*.orig
+
+# Archivos de bloqueo
+*.lock
+.lock
+
+# Certificados y keystores
+*.cer
+*.crt
+*.der
